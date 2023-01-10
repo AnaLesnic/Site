@@ -1,63 +1,337 @@
-*{
-  
-    text-decoration: none;
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url('https://www.baltana.com/files/wallpapers-29/Moldova-Flag-HD-Desktop-Wallpaper-96403.jpg');
+    background-size: cover;
+    width: 98%;
+    height: 98vh;
 }
 
-.logo{
-    background-image: url(logo.png.png);
-    height: 70px;
-    width: 100px;
-    background-size: 100px;
-    
+.header {
+    width: 85%;
     display: flex;
-    align-items: center;
-}
-
-nav{
-    display: flex;
-    width: 1000px;
-    margin: 0 auto;
-    height: 40px;
-    margin-top: 20px;
-    margin-bottom: 100px;
-}
-
-nav ul{
-    display: flex;
-    list-style: none;
-    width: 100%;
     justify-content: space-between;
-    height: 40px;
-    align-items: center;
+    color: white;
+    margin: 30px;
+
+
 }
 
-nav ul li a{
-    font-style: normal;
-    font-weight: 500;
+.header li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 30px;
     font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 0.25em;
-    color: #e2e8e8;
-    margin-left: 8px;
-}
-nav ul li.active a{
-    color: rgba(218, 165, 32, 1);
-    font-style: normal;
-    font-weight: 800;
-    font-size: 16px;
-    line-height: 22px;
-}
-nav ul li.button{
-    border: 1px solid rgba(62, 63, 67, 1);
-    border-radius: 8px;
-    padding: 9px 36px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
-body{
-   
-    
-        background-repeat: no-repeat;
-        background-size: 100%;
-      
+.header li:hover {
+    color: rgb(104, 86, 86);
+}
+
+.header input {
+    background: rgb(252, 249, 249);
+    height: 30px;
+    margin-top: 20px;
+    width: 120px;
+    border-radius: 20px;
+    outline: none;
+    color: white;
+    padding-left: 5px;
+
+}
+
+button {
+    background-color: rgb(20, 18, 31);
+    padding: 10px;
+    color: white;
+    width: 100px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.body-section {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 25%;
+    align-items: center;
+    justify-content: center;
+    color: rgb(249, 245, 253);
+
+}
+
+h1 {
+    font-size: 45px;
+
+}
+
+.body-section button {
+    background-color: rgb(181, 202, 107);
+    padding: 10px;
+    color: white;
+    width: 110px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.body-section button:hover {
+    background-color: white;
+
+    color: rgb(43, 226, 52);
+
+}
+
+.body-section .contacte {
+    background-color: white;
+    padding: 10px;
+    color: blueviolet;
+    width: 100px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 110px;
+}
+
+.body-section .contacte {
+    background-color: blueviolet;
+
+    color: rgb(249, 245, 253);
+
+}
+
+.header a:hover {
+    display: inline;
+    border: 2px solid blueviolet;
+}
+
+.mapouter {
+    margin-left: 30px;
+}
+
+.contacte {
+    border: 2px solid black;
+}
+
+.unghii {
+    border: 3px solid black;
+    width: 15%;
+    margin-left: 3%;
+    font-size: 35px;
+}
+
+.prices {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+        url('https://www.baltana.com/files/wallpapers-29/Moldova-Flag-HD-Desktop-Wallpaper-96403.jpg');
+}
+
+.font {
+    color: aliceblue;
+    font-size: xx-large;
+
+}
+
+.lar1 {
+    background-image: url(https://ea.md/wp-content/uploads/2020/07/o-noua-oferta-turistica-pentru-doritorii-de-activitati-in-aer-liber-drumetii-kayaking-si-ciclism-printre-oportunitatile-de-aventura-usoara-154361-1596110626.jpg);
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+}
+
+
+
+.lar2 {
+    margin-top: -17%;
+    margin-left: 35%;
+    background-image: url(https://valentinatur.md/wp-content/uploads/2017/05/harta_turistica_2017_mare.jpg);
+    width: 200px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+}
+
+.lar3 {
+    margin-top: -32%;
+    margin-left: 60%;
+    background-image: url(https://diez.md/wp-content/uploads/2020/05/teleportravelcriulenicollage-920x534.jpg);
+    width: 445px;
+    height: 420px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+}
+
+
+.cont {
+    color: aliceblue;
+}
+
+.image1 {
+    background-image: url(https://scontent.fkiv8-1.fna.fbcdn.net/v/t39.30808-6/294682463_501236188668262_5126229159819675260_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=e3f864&_nc_ohc=kX5_Z22GQ9AAX8D9QgB&_nc_ht=scontent.fkiv8-1.fna&oh=00_AfDYfQwb9NWY1GI6bY9hyjp_qTqfYFyW7XSgSs5nO6cWRQ&oe=63C1869A);
+    width: 900px;
+    height: 900px;
+    background-size: 100%;
+    margin: 3%;
+    background-repeat: no-repeat;
+
+}
+
+
+.image2 {
+    background-image: url(hhttps://scontent.fkiv8-1.fna.fbcdn.net/v/t39.30808-6/241648475_5070404022996568_1274167243556747848_n.jpg?stp=dst-jpg_p960x960&_nc_cat=111&ccb=1-7&_nc_sid=e3f864&_nc_ohc=twQr10aXCPQAX8-3KdF&_nc_ht=scontent.fkiv8-1.fna&oh=00_AfDzWFNrbjF9m-moh4zeyfejdXfLwHukMm2afyyPxgZcPg&oe=63C1149E);
+    width: 900px;
+    height: 900px;
+    background-size: 100%;
+    margin: 3%;
+    background-repeat: no-repeat;
+
+}
+
+.image2 {
+    background-image: url(http://trm.md/img/pages/2021/12/7/descopera-rezervatia-naturala-padurea-domneasca/descopera-rezervatia-naturala-padurea-domneasca.png);
+    width: 900px;
+    height: 900px;
+    background-size: 100%;
+    margin: 3%;
+    background-repeat: no-repeat;
+
+}
+
+.image3 {
+    background-image: url(https://visit.chisinau.md/wp-content/uploads/2021/09/Catedrala-si-Clopotnita-1-e1638435096460.jpg);
+    width: 900px;
+    height: 900px;
+    background-size: 100%;
+    margin: 3%;
+    background-repeat: no-repeat;
+
+}
+
+.image4 {
+    background-image: url(https://observatorul.md/wp-content/uploads/2020/01/Soroca-turism-1.jpg);
+    width: 900px;
+    height: 900px;
+    background-size: 100%;
+    margin: 3%;
+    background-repeat: no-repeat;
+
+}
+
+.image5 {
+    background-image: url(http://moldovenii.md/resources/files/images/news/nick/23-pociumbeni-mic.jpg);
+    width: 900px;
+    height: 900px;
+    background-size: 100%;
+    margin: 3%;
+    background-repeat: no-repeat;
+
+}
+
+.image6 {
+    background-image: url(https://descopera.md/wp-content/uploads/2021/10/epoca-de-piatra.jpg);
+    width: 900px;
+    height: 900px;
+    background-size: 100%;
+    margin: 3%;
+    background-repeat: no-repeat;
+
+}
+
+.image7 {
+    background-image: url(https://vartely.md/wp-content/uploads/bfi_thumb/harta-3d79uk6dxg3syh8a0fsw0a.jpg);
+    width: 900px;
+    height: 900px;
+    background-size: 100%;
+    margin: 3%;
+    background-repeat: no-repeat;
+
+}
+
+.image8 {
+    background-image: url(https://ideipentruvacanta.ro/wp-content/uploads/2020/02/obiective-turistice-in-chisinau.jpg);
+    width: 900px;
+    height: 900px;
+    background-size: 100%;
+    margin: 3%;
+    background-repeat: no-repeat;
+
+}
+
+.image9 {
+    background-image: url(https://bani.md/wp-content/uploads/2021/12/260896629_272249008264801_1903524690319720652_n-2.jpg);
+    width: 700px;
+    height: 700px;
+    background-size: 100%;
+    margin: 3%;
+    background-repeat: no-repeat;
+
+}
+
+.image10 {
+    background-image: url(https://diez.md/wp-content/uploads/2020/06/rsz_1befunky-collage_2.jpg);
+    width: 900px;
+    height: 900px;
+    background-size: 100%;
+    margin: 3%;
+    background-repeat: no-repeat;
+
+}
+
+.image11 {
+    background-image: url(https://cunoastetitara.md/wp-content/uploads/2020/07/Descoper%C4%83-10-locuri-spectaculoase-%C8%99i-mai-pu%C8%9Bin-cunoscute-%C3%AEn-Republica-Moldova-2.jpg);
+    width: 900px;
+    height: 900px;
+    background-size: 100%;
+    margin: 3%;
+    background-repeat: no-repeat;
+
+}
+
+.image12 {
+    background-image: url(https://i2.wp.com/orheianca.eu/wp-content/uploads/2018/03/pensiuni-din-Moldova-e1520642644166.jpg);
+    width: 900px;
+    height: 900px;
+    background-size: 100%;
+    margin: 3%;
+    background-repeat: no-repeat;
+
+}
+
+.image13 {
+    background-image: url(http://www.visit.md/wp-content/uploads/2017/03/Surpriz.png);
+    width: 900px;
+    height: 900px;
+    background-size: 100%;
+    margin: 3%;
+    background-repeat: no-repeat;
+
+}
+
+.image14 {
+    background-image: url(https://madein.md/i/files/news/primul-ghid-oenoturistic-al-moldovei.png);
+    width: 900px;
+    height: 900px;
+    background-size: 100%;
+    margin: 3%;
+    background-repeat: no-repeat;
+
+}
+
+.image15 {
+    background-image: url(http://images2.moldovatrans.com/tur/imgbank/trip/5c58559eb9d6b.jpg);
+    width: 900px;
+    height: 900px;
+    background-size: 100%;
+    margin: 3%;
+    background-repeat: no-repeat;
+
 }
